@@ -1,0 +1,9 @@
+{
+  "name": "User Messages Count",
+  "version": "1.0.0",
+  "description": "Check the amount of messages a user has.",
+  "author": "FC#5104",
+  "license": "MIT",
+  "repo": "https://github.com/FC5570/powercord-user-messages-count",
+  "dependencies": ["pc-commands"]
+}
