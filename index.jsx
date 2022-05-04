@@ -93,6 +93,7 @@ class UserMessageCountPlugin extends Plugin {
   }
 
   pluginWillUnload() {
+    powercord.api.settings.unregisterSettings(this.entityID);
     powercord.api.commands.unregisterCommand("message-count");
   }
 }
